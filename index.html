@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Agency</title>
+   <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; 
+        background:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover fixed no-repeat;
+        color:#333;}
+    /* Top Contact Bar */
+    .topbar {
+      background:#007bff;
+      color:white;
+      padding:8px 20px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      font-size:14px;
+    }
+    .topbar a { color:white; text-decoration:none; margin-left:15px; }
+    
+    /* Hero Header */
+    header {
+      background:url('/img/body-bg.jpg') center/cover no-repeat;
+      height:85vh;
+      color:white;
+      text-align:center;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      position:relative;
+    }
+    header::before {
+      content:"";
+      position:absolute;
+      top:0; left:0; right:0; bottom:0;
+      background:rgba(0,0,0,0.3); /* dark overlay */
+    }
+    header .hero-text {
+      position:relative;
+      z-index:1;
+    }
+    header h1 { font-size:3rem; margin:0; }
+    header p { font-size:1.2rem; }
+    
+    section { padding:40px; text-align:center; }
+    .contact-form { max-width:500px; margin:auto; }
+    input, textarea { width:100%; padding:10px; margin:10px 0; border-radius:5px; border:1px solid #ccc; }
+    button { padding:10px 20px; background:#007bff; color:white; border:none; border-radius:5px; cursor:pointer; }
+    footer { background:rgba(0,0,0,0.8); 
+            color:white; 
+            padding:20px; 
+            text-align:center; 
+            border-radius:10px;  }
+    .social-icons a {
+      color:white;
+      margin:0 10px;
+      font-size:20px;
+      text-decoration:none;
+    }
+
+    /* WhatsApp Floating Button */
+    .whatsapp-float {
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:white;
+      border-radius:50%;
+      padding:15px;
+      font-size:24px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.3);
+      text-decoration:none;
+      z-index:1000;
+    }
+  </style>
+    <!-- Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="topbar">
+        <div><strong>Travel Agency</strong></div>
+            <div>
+                📞 +91 9876543210 | ✉ travelagency@email.com
+            </div>
+    </div>
+
+  <header>
+    <h1><b>Travel Agency</b></h1>
+    <p><b>"Apka Safar, Hamari Zimmedari"</b></p>
+    <p style="margin-top: -10px;">"OneStop travel solution provider at Flexible prices"</p>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Hum flights, hotels aur customized tour packages bahut hi kifayti rates pr provide karte hain.</p>
+    <p>We have 20 years of experience in Corporate trip planner</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+      <form action="https://formsubmit.co/pahalwar@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="phone" name="phone" placeholder="Your Phone Number" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>📍 Delhi, India | 📞 +91 9876543210 | ✉ travelagency@email.com</p>
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+    <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/917503629170" class="whatsapp-float" target="_blank">
+    <i class="fa-brands fa-square-whatsapp" style="color: #06ea34;"></i>
+  </a>
+
+</body>
+</html>
