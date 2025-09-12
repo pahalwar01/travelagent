@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Travel Agency</title>
+  <title>TMN Travels</title>
    <style>
     body { font-family: Arial, sans-serif; margin:0; padding:0; 
         background:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover fixed no-repeat;
@@ -17,9 +17,9 @@
       display:flex;
       justify-content:space-between;
       align-items:center;
-      font-size:14px;
+      font-size:13px;
     }
-    .topbar a { color:white; text-decoration:none; margin-left:15px; }
+    .topbar a { color:white; text-decoration:none; margin-left:0px; }
     
     /* Hero Header */
     header::before {
@@ -33,9 +33,9 @@
       z-index:1;
     }
     header h1 { font-size:3rem; color: aqua; margin:0; }
-    header p { font-size:1.2rem; color: red; }
+    header p { font-size:1.2rem; color: white; }
     
-    section { padding:40px; text-align:center; }
+    section { padding:40px; text-align:center; color: black; }
     .contact-form { max-width:500px; margin:auto; }
     input, textarea { width:100%; padding:10px; margin:10px 0; border-radius:5px; border:1px solid #ccc; }
     button { padding:10px 20px; background:#007bff; color:white; border:none; border-radius:5px; cursor:pointer; }
@@ -69,31 +69,49 @@
 </head>
 <body>
 
+  <!--header name and contact details-->
     <div class="topbar">
-        <div><strong>Travel Agency</strong></div>
+        <div><strong>TMN Travels</strong></div>
             <div>
                 📞 +91 9876543210 | ✉ travelagency@email.com
             </div>
     </div>
-
-  <header style="background:url('body-bg.jpg')
+  <!--header name and contact details end-->
+  <header style="background:url('img/body-bg.jpg')
                 center/cover no-repeat;  
-                height:45vh; 
+                height:25vh; 
                 color:white; 
                 text-align:center; 
                 display:flex; 
                 flex-direction:column; 
                 justify-content:center; 
                 position:relative;">
-    <h1><b>Travel Agency</b></h1>
-    <p><b>"Apka Safar, Hamari Zimmedari"</b></p>
-    <p style="margin-top: -10px;">"OneStop travel solution provider at Flexible prices"</p>
+    <h1><b>TMN Travels</b></h1>
+    <p><b>"Your Journey, Our Responsibility"</b></p>
+    <p style="margin-top: -10px;">"Trusted tours and travels company in Delhi & NCR."</p>
   </header>
 
   <section id="about">
-    <h2>About Us</h2>
-    <p>Hum flights, hotels aur customized tour packages bahut hi kifayti rates pr provide karte hain.</p>
-    <p>We have 20 years of experience in Corporate trip planner</p>
+    <h2 style="margin-top: -30px; font-size: 30px;">Welcome to TMN Travels</h2>
+    <h2 style="font-size: 22px;">Services We Offer</h2>
+    <div>
+      <ul contextmenu="services" style="list-style-type: square; text-align: left; display: inline-block; margin-top: -10px;">
+        <li>Customized Tour Packages – Family & Company</li>
+        <li>Corporate Travel Solutions – Hotel booking / Meeting / Event</li>
+        <li>Group Off-site / Trip – Companies / Families / etc.</li>
+        <li>All type of Cabs / Luxury Buses booking</li>
+      </ul>
+    </div><br>
+    <h2 style="font-size: 17.5px;">Why We Are the Trusted Travel Agency in Delhi & NCR</h2>
+    <div>
+      <ul contextmenu="reasons" style="list-style-type: square; text-align: left; display: inline-block; margin-top: -10px;">
+        <li>20+ Years of Experience in Corporate Trip Planning</li>
+        <li>Customer Satisfaction is Our Top Priority</li>
+        <li>Competitive Pricing with No Hidden Costs</li>
+        <li>24/7 Customer Support for All Your Travel Needs</li>
+      </ul>
+    </div>
+
   </section>
 
   <section id="contact">
@@ -106,6 +124,13 @@
         <button type="submit">Send Message</button>
       </form>
     </div>
+
+
+
+    <!--About US section-->
+        <h2>About US</h2>
+    <p style="margin-top: -10px;">At TMN Travels, we are a trusted and experienced travel agency dedicated to planning memorable trips for our valued customers. With over 20 years of expertise, we offer personalized travel solutions, seamless trip planning, and reliable support. Our commitment is to provide hassle-free journeys, competitive pricing, and exceptional service, ensuring every customer enjoys a safe and unforgettable travel experience.</p>
+
   </section>
 
   <footer>
