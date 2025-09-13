@@ -3,3 +3,9 @@ hr{
     border-top: 1px solid black;
     margin: 20px 0;
 }
+
+.paragraph-header{
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 22px;
+}
