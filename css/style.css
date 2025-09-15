@@ -10,6 +10,16 @@ hr{
     font-size: 22px;
     margin-bottom: 15px;
 }
+
+.places-to-visit p{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+
+
+
 /* Brand Name and Slogan Styles */
 @media screen and (max-width: 600px) {
     .brand-name{
