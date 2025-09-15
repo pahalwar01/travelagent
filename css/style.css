@@ -21,4 +21,7 @@ hr{
     .brand-slogan-lastline{
         font-size: 14px;
     }
+    .navbar a {
+        font-size: 12px;
+    }
 }
